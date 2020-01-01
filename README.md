@@ -1,2 +1,1 @@
-# reveal-sumo-for-ninjas
-Wrestling the logs like a pro
+# Sumo for Ninjas: Wrestling the logs like a pro
