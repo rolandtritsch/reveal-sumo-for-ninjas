@@ -63,13 +63,12 @@
             <li><strong>Fostering more meaningful conversations (again).</strong>Between ...</li>
               <ul>
                 <li>Artists and Fans. Activists and Change Agents. Thoughtleaders and ...</li>
-                <li>Ellen DeGeneres. Jennifer Lopez. Marshmello. Mark Cuban.</li>
+                <li>Ellen DeGeneres. Jennifer Lopez. Marshmello. Mark Cuban. ...</li>
               </ul>
             <li>Founded in 2018. Based in LA/USA. 60 people (world-wide).</li>
-            <li>30 engineers (LA, Denver, Dublin, Rome, ...). Remote-First.</li>
-            <li>Shared-nothing Micro-Services Architecture (using an Event-Bus for state propagation).</li>
-            <li>React frontend. Elixir backend. MySql/Vitesse database(s). RabbitMQ messaging.</li>
-            <li></li>
+            <li>30 engineers (in 5 timezones). Remote-First.</li>
+            <li>Shared-Nothing Micro-Services Architecture (using an event-bus for state propagation).</li>
+            <li>React frontend. Elixir backend. MySql/Vitess database(s). RabbitMQ messaging.</li>
           </ul>
           <aside class="notes">
 	        </aside>
@@ -77,8 +76,9 @@
 
 	      <section>
 	        <h1>Wrestling the logs to ...</h1>
+	        <h3>Disclaimer: Not a training! But a tutorial!</h3>
           <ul>
-            <li>Find something you do not know about. Did something happen?</li>
+            <li>Find something you do <strong>NOT</strong> know about. Did something happen?</li>
             <li>Analyse/investigate something (you know about). What happend? Why?</li>
             <ul>
               <li>By service. At a certain time.</li>
@@ -89,11 +89,27 @@
           </aside>
         </section>
 
+	      <section>
+	        <h1>(Investigative) Mindset ...</h1>
+	        <h3>Questions to ask yourself!!!</h3>
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Five_whys">Five whys!!!</a></li>
+            <li>What happened? Why did it happen? What was the impact?</li>
+            <li>Be curious. Be suspicious. Look for questions to ask! Learn!!!</li>
+            <ul>
+              <li>(Initially) Jumping to a wrong conclusion is better than jumping to no conclusion.</li>
+              <li>OOAD - Loop/ Hypothiss</li>
+            </ul>
+          </ul>
+          <aside class="notes">
+          </aside>
+        </section>
+
         <section>
 	        <h1>Find ...</h1>
           <ul>
-            <li>Filter out vs. Filter in</li>
-            <li>Good curves vs. Bad curves</li>
+            <li><a href="https://service.us2.sumologic.com/ui/#/search/htJfsTxVck7PNjfCk8VXsigEondLBaBXOO2A1e79">Filter out</a> vs. Filter in</li>
+            <li><a href="https://www.dropbox.com/s/4b9bs8uw22exilj/2020-01-02%2008.21.22.jpg?dl=0">Good curves vs. Bad curves</a></li>
             <li>Spikes vs. Waves</li>
             <li>Starting vs. Stopping</li>
           </ul>
@@ -105,12 +121,10 @@
 	        <h1>Find ... (TTT)</h1>
 	        <h3>Tools, Tips, Tricks</h3>
           <ul>
-            <li>matches</li>
-            <li>in</li>
-            <li>json auto</li>
-            <li>shift click</li>
-            <li>count by</li>
-            <li>parse</li>
+            <li>(not) matches/regex/in</li>
+            <li>json auto (use with care; you need an index)</li>
+            <li>count by/sort by</li>
+            <li>timeslice/timecompare</li>
           </ul>
           <aside class="notes">
           </aside>
@@ -118,14 +132,51 @@
 
         <section>
 	        <h1>Investigating ...</h1>
+          <ul>
+            <li>A service. A <a href="https://service.us2.sumologic.com/ui/#/search/UrC4PzFiiyCkJ3PVbxudOnUOirPyXkPbVKJyDqgB">timeframe</a>.</li>
+            <li>Broaden ... the level, ... Going deep :).</li>
+            <li>Correlate ... with other sources of wisdom (by time and/or service).</li>
+            <ul>
+              <li>AppSignal. NewRelic/InSights. Compose. Aiven. ...</li>
+            </ul>
+          </ul>
+          <aside class="notes">
+	        </aside>
+        </section>
+
+        <section>
+	        <h1>Investigating ... (TTT)</h1>
+	        <h3>Tools, Tips, Tricks</h3>
+          <ul>
+            <li>shift click</li>
+            <li>count by/sort by</li>
+            <li>parse</li>
+          </ul>
           <aside class="notes">
 	        </aside>
         </section>
 
         <section>
 	        <h1>Pretty ...</h1>
+          <ul>
+            <li><a href="https://service.us2.sumologic.com/ui/#/dashboard/owx4XJyMw4g464amtKHrgaN13eMANWdwyxWzSthdUYqX5UZkR9AvEdmAPAJL">Ian</li>
+            <li><a href="https://service.us2.sumologic.com/ui/#/dashboard/zcME1EnsOE3C0GX7vjgZr0zc3V20ezFG00m4TTuIx4S1UgkSf3CAD802WoX2">Ustin</a></li>
+            <li>YOU :)</li>
+          </ul>
           <aside class="notes">
 	        </aside>
+        </section>
+
+	      <section>
+	        <h1>The ask ...</h1>
+          <ul>
+            <li>Keep the logs clean.</li>
+            <li>Log every error (only) once.</li>
+            <li>Respect the level.</li>
+          </ul>
+          <center>We <strong>still</strong> have too many *errors* in the logs.</center>
+          <aside class="notes">
+          </aside>
         </section>
 
         <section>
